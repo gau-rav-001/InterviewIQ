@@ -362,7 +362,7 @@ const Dashboard = () => {
                                             <span className="text-sm text-zinc-400">
                                                 {resumeFile ? resumeFile.name : 'Choose PDF'}
                                             </span>
-                                            <input type="file" accept=".pdf" className="hidden" onChange={handleResumeUpload} disabled={isUploading} />
+                                            <input type="file" accept=".pdf,application/pdf" className="hidden" onChange={handleResumeUpload} disabled={isUploading} />
                                         </label>
                                     )}
                                     {isUploading && <p className="text-xs text-amber-400 mt-2">Uploading...</p>}

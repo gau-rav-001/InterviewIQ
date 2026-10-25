@@ -126,7 +126,7 @@ const ATSScanner = () => {
                                     type="file"
                                     ref={fileInputRef}
                                     onChange={handleUpload}
-                                    accept=".pdf"
+                                    accept=".pdf,application/pdf"
                                     className="hidden"
                                 />
                             </div>
